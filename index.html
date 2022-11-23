@@ -1,141 +1,322 @@
 <!DOCTYPE html>
-    <!-- Coding by CodingLab | www.codinglabweb.com -->
-    <html lang="en">
-    <head> <div class="Pls">
-       &nbsp; <p class="erw">By the students,<br>
-            for the students.</p>
-        <br> <br><br><br><p class="ered">Chemistry is a rigorous investigative science which requires devotion and discipline.Our Mentors never fall short of the goal,are well qualified for the task of opening chemistry boundaries and widening the trainees' horizons.</p> <br><br><br><br>
-    </div> 
-    <div class="Me">Meet our Board.</div>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Card Slider</title>
-        <!-- Swiper CSS -->
-        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>October Chemistry Club</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <header id="navbar">
+        <nav class="navbar" >
+        <!-- LOGO -->
+     <div class="logo">
+        <img src="FFF.png" alt="" width="100" height="90" class="d-inline-block align-text-top">
+     </div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="#services">Our Goal</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <li><a href="#Stuff">Our Stuff</a></li>
+         <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-140px";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+            </script>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
-                                        
-    </head>
-    <body>
-
-        <div class="slide-container swiper">
-            <div class="slide-content">
-                <div class="card-wrapper swiper-wrapper">
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="Maged.jpg" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="name">Mohammed Maged</h2>
-                            <p class="description">Vice President <br> One of the best in the field, Maged ranked 2nd in ESEF and top 5% of all projects in ISRIF. Besides, Maged's aim is to spread chemical knowledge to his audience and break down conundrums with his research skills</p>
-
-                            <button class="button" onclick="parent.location='https://www.linkedin.com/in/mohamed-majid-abdel-salam-morsi-8a3429201/'">View Bio</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="Fri.png" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        
-
-                        <div class="card-content">
-                            <h2 class="name">Omar Fathy</h2>
-                            <p class="description">President<br> Omar cofounded the club in mid 2022. His aim is to break down chemical illiteracy and encourage others to learn chemistry properly and do research in chemical related fields. Omar collaborated with Maged to win prestigious competitions:ESEF,ISRIF</p>
-
-                            <button class="button" onclick="parent.location='https://www.linkedin.com/in/omar-mohamed-fathy-mohamed-6901b0211/'">View Bio</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="WW.png" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="name">Ahmed Wael</h2>
-                            <p class="description">Chief Technology Officer, Mentor<br> Developed the club's website. Have a solid understanding of physical,organic chemistry,and stoichiometry which startle any novice. Ranked 2nd in October Calculus Contest and 3rd in Brawl Physics Competition </p>
-
-                            <button class="button" onclick="parent.location='https://www.linkedin.com/in/ahmed-wael-muhammad-kamal-ismail-al-marsafi-071384203/'">View Bio</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="Hq.png" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="name">Ali Hammad</h2>
-                            <p class="description">Mentor <br> Ali Hammad is a diligent mentor ready to share his knowledge. He is ranked 3rd out of 18K+ in the STEM admissions test</p>
-
-                            <button class="button" onclick="parent.location='https://www.linkedin.com/in/ali-hammad-mohammed-ahmed-ibrahim-barakat-472584214/'">View Bio</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="Tarek Alaa.jpeg" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        
-
-                        <div class="card-content">
-                            <h2 class="name">Tarek Alaa</h2>
-                            <p class="description"> Mentor <br> Tarek Alaa is one of the skilled stuff members in problem solving and cracking chemical concepts in acid-base and buffers</p>
-
-                            <button class="button">View More</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="Youssef Ayman.png" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="name">Youssef Ayman</h2>
-                            <p class="description">Mentor <br> Youssef is one of the genius stuff members of the club. His aim is to teach others how to improve their mathmatical approach towards solving complex problems in stoichiometry and molecular geometry</p>
-
-                            <button class="button">View More</button>
-                        </div>
-                    </div>
+           <!-- DROPDOWN MENU -->
+         </li>
+         
+       </div>
+     </ul>
+    </header>
+    <br><br>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="container">
+                
+                <br><br><br><br><br><br><br><br><br>
+                <p class="Mod">Welcome to October Chem Club</h1>
+    
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="containere">
+                
+                <br><br><br><br><br><br>
+                <h2 class="chess">Chemistry Club is the greatest opportunity for those who are chemistry 
+                    enthuasists and open minded problem solvers</h2>
+                <br>
+                <div class="But">
+                &nbsp;<button type="button" class="btn btn-danger" >Sign up today</button>
+            </div>
+            </div>
+            </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <section class="cards" id="services">
+        <h2 class="title">Our Goal</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3 class="jh">Regular follow-up</h3>
+                    <p>Assigning creative tasks like making presentations, Weekly Quizzes and Homework to check understanding. We depend on self e-learning</p>
                 </div>
             </div>
-
-            <div class="swiper-button-next swiper-navBtn"></div>
-            <div class="swiper-button-prev swiper-navBtn"></div>
-            <div class="swiper-pagination"></div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div class="info">
+                    <h3 class="jh">No lengthy Sessions</h3>
+                    <p>Intensive sessions with mesmurizing content that will increase understanding of the chemical concept </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="info">
+                    <h3 class="jh">Energetic Trainers</h3>
+                    <p>Mentors ready to crack chemistry for chemistry haters and open for them a new world with endless possibilities</p>
+                </div>
+            </div>
         </div>
-        <a href="October.html" class="Fot"> >>>Back to Main Page</a>
-    </body>
+    </section>
 
-    <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <section class="projects" id="projects">
+        <h2 class="title">Books and Resources</h2>
+        <p class="jh">“Chemistry must become the astronomy of the molecular world.” Alfred Werner</p>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="R.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Zumdahl Textbook 9th Edition</p>
+                    <strong class="project-title">
+                        <span>A book that makes the plethora of chemistry more tangible</span>
+                        <a href="https://www.pdfdrive.com/chemistry-e188983089.html" class="more-details">Download</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="p.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Atkins Physical Chemistry</p>
+                    <strong class="project-title">
+                        <span>A great book for those who want to dive deep and combine physics with chemistry</span>
+                        <a href="https://www.pdfdrive.com/atkins-physical-chemistry-e39937269.html" class="more-details">Download</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="c.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Clutch Prep</p>
+                    <strong class="project-title">
+                        <span>A Great Website to help you crack Chemistry concepts for free</span>
+                        <a href="https://www.clutchprep.com/chemistry" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="opu.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Chemical Engineering </p>
+                    <strong class="project-title">
+                        <span>A handy book for those who want to delve deeper in applied chemistry and pursue a chemical career</span>
+                        <a href="https://www.pdfdrive.com/chemical-engineering-volume-1-sixth-edition-coulson-and-richardsons-chemical-engineering-e185503200.html" class="more-details">Download</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="hs.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Organic Chemistry Tutor Youtube Channel</p>
+                    <strong class="project-title">
+                        <span>Needless to say: The greatest freemium channel ever</span>
+                        <a href="https://www.youtube.com/c/TheOrganicChemistryTutor" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="drive.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Our Drive</p>
+                    <strong class="project-title">
+                        <span>Our Handouts and Online References used for mentoring our trainees</span>
+                        <a href="https://drive.google.com/drive/folders/1CmP90Ow48CP0_J6h8brYjL-wz9FKe7yE" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="Stuff">
+        <h2 class="tittle">Meet our Board</h2>
+        <p class="eer">Chemistry is a rigorous investigative science which requires devotion and discipline.Our Mentors never fall short of the goal,are well qualified for the task of opening chemistry boundaries and widening the trainees' horizons.</p>
+        <br><p class="eer">Our curriculum is carefully chosen by our mentors. Our curriculum is based on AP/IB Chemistry.You can view our curriculum <a href="https://drive.google.com/file/d/1C8hTy_MUrMx9dfoKiRaBt4jI6xlFi-gh/view" class="ui">here</a></p>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Maged.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Mohammed Maged,Vice President</p>
+                    <strong class="project-title">
+                        <span class="Stu">One of the best in the field, Maged ranked 2nd in ESEF and top 5% of all projects in ISRIF. Besides, Maged's aim is to spread chemical knowledge to his audience and break down conundrums with his research skills</span>
+                        
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Omar.jpeg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Omar Fathy,President</p>
+                    <strong class="project-title">
+                        <span class="Stu">Omar cofounded the club in mid 2022. His aim is to break down chemical illiteracy and encourage others to learn chemistry properly and do research in chemical related fields. Omar collaborated with Maged to win prestigious competitions:ESEF,ISRIF</span>
+                        
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="WW.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Ahmed Wael,Chief Technology Officer, Mentor</p>
+                    <strong class="project-title">
+                        <span class="Stu">Developed the club's website. Have a solid understanding of physical,organic chemistry,and stoichiometry which startle any novice. Ranked 2nd in October Calculus Contest and 3rd in Brawl Physics Competition</span>
+                        
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Hq.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Ali Hammad,Mentor </p>
+                    <strong class="project-title">
+                        <span class="Stu">Ali Hammad is a diligent mentor ready to share his knowledge. He is ranked 3rd out of 18K+ in the STEM admissions test</span>
+                        
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Tarek Alaa.jpeg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Tarek Alaa,Mentor</p>
+                    <strong class="project-title">
+                        <span class="Stu">Tarek Alaa is one of the skilled stuff members in problem solving and cracking chemical concepts in acid-base and buffers</span>
+                        
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Youssef Ayman.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Youssef Ayman,Mentor</p>
+                    <strong class="project-title">
+                        <span>Youssef is one of the genius stuff members of the club. His aim is to teach others how to improve their mathmatical approach towards solving complex problems in stoichiometry and molecular geometry</span>
+                        
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <section class="cards contact" id="contact">
+      
+        <h2 class="title">Let's work together</h2>
+        <div class="text-center">
+            <h2>Get in touch</h2>
+            <p class="lead">Questions? Do not hesitate to contact us.</p>
+          </div>
+          <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" required="required" placeholder="Your Email" />
+                
+            </div>
+            <br><br>
+            <div class="form-group">
+                <textarea required="required" name="text" class="form-control"
+                    style="min-height: 150px;" placeholder="Message"></textarea>
+            </div>
+            <input type="hidden" name="access_token" value="rhl5m3vwd6qax4wr0q8p6hz4" />
+           <br><br>
+            <div class="form-group">
+                <input id="submit_form" type="submit" class="btn btn-block btn-lg btn-primary" value = "send" />
+            </div>
+
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>October Chemistry Developer Branch</span></p>
+        <div class="social-icons">
+            <p class="jh">Chem is Fun</p>
+        </div>
+    </footer>
+
+</body>
 </html>

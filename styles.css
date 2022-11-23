@@ -26,6 +26,15 @@ header {
     top: 0px;
     transition-duration: 1s;
 }
+.aq{
+    display:flex;
+}
+.card{
+    float:left;
+}
+#Stuff{
+    background-color: #043d11;
+}
 .containere{
     height:41rem;
     background-image: url("chemistry.gif");
@@ -47,10 +56,18 @@ header {
     font-weight: 700;
     font-size: 1.8em;
 }
+.Stu{
+    font-family: cera pro;
+}
 .jh{
     font-family:cera pro black;
     color: #3a6cf4;
     font-size: 2em;
+}
+.eer{
+    font-family:cera pro black;
+    color: #ffffff;
+    font-size: 2.2em
 }
 .Hg{
     width: 175px;
@@ -149,6 +166,11 @@ section {
   animation-duration: 4s;
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
+  font-family:cera pro black;
+}
+.ui{
+    font-family: cera pro black;
+    font-size:40px;
 }
 @keyframes typing {
     from { width: 0 }
@@ -197,6 +219,16 @@ section {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
+}
+.tittle {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family:cera pro black;
+    font-size:50px;
 }
 
 .content {
